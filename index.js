@@ -15,10 +15,8 @@ document.onclick = function (e) {
 
 // Menu toggle function in phones
 function toggle() {
-    menu.addEventListener("click", () => {
         menu.classList.toggle("open");
         nav.classList.toggle("open");
-    })
 }
 
 // theme toggle function
